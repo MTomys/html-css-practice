@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+  </head>
+
+  <body>
+    <h1>Forms Demo</h1>
+    <main>
+      <form action="/asd">
+        <p>
+          <label for="login">Login: </label>
+          <input type="text" placeholder="login" id="login" name="loginName">
+        </p>
+        <p>
+          <label for="password">Password: </label>
+          <input type="password" placeholder="password" id="password">
+        </p>
+        <p>
+          <label for="color">Color: </label>
+          <input type="color" id="color">
+        </p>
+        <p>
+          <label for="age">Age: </label>
+          <input type="number" placeholder="age" id="age">
+        </p>
+        <button type="submit">Submit</button>
+      </form>
+      <section id="youtubeSearch">
+        <form action="https://www.youtube.com/results">
+          <p>
+            <label for="searchValue">Search here: </label>
+            <input type="text" placeholder="search..." id="searchValue" name="search_query">
+            <button type="submit">Search Youtube</button>
+          </p>
+        </form>
+        <h2>More inputs!</h2>
+        <h3>Swimming Styles</h3>
+        <form action="/swimming-styles">
+          <input type="checkbox" name="front-crawl" id="frontCrawlStyle">
+          <label for="frontCrawlStyle">Front crawl</label>
+          <input type="checkbox" name="butterfly" id="butterflyStyle">
+          <label for="butterflyStyle">Butterfly</label>
+          <input type="checkbox" name="breast-stroke" id="breastStrokeStyle">
+          <label for="breastStrokeStyle">Breast Stroke</label>
+          <button>Submit</button>
+        </form>
+        <h3>Your preferred style: </h3>
+        <form action="/preferred-swimming-styles" id="preferredSwimmingForm">
+          <input type="radio" name="preferred-swimming-style" id="front-crawl-preferred" value="frontCrawl">
+          <label for="front-crawl-preferred">Front crawl</label>
+          <input type="radio" name="preferred-swimming-style" id="butterfly-preferred" value="butterfly">
+          <label for="butterfly-preferred">Butterfly</label>
+          <input type="radio" name="preferred-swimming-style" id="breast-stroke-preferred" value="breastStroke">
+          <label for="breast-stroke-preferred">Breast stroke</label>
+        </form>
+        <button type="submit" form="preferredSwimmingForm" value="Submit">Submit</button>
+        <h3>Favourite food selection</h3>
+        <label for="favourite-food">Select your favourite food:</label>
+        <select name="Favourite Food" id="favourite-food">
+          <option value="">choose option</option>
+          <option value="sushi">Sushi</option>
+          <option value="pizza">Pizza</option>
+          <option value="steaks">Steaks</option>
+        </select>
+        <h4>Volume</h4>
+        <label for="volume">Set volume:</label>
+        <input type="range" id="volume" min="0" max="100">
+
+        <h2>Validation Demo</h2>
+        <form action="/dummy">
+          <label for="first">Enter first name</label>
+          <input type="text" name="first" required>
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required>
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>
