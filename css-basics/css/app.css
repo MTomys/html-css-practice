@@ -1,0 +1,21 @@
+h2 {
+  color: #5FCFFC;
+  background-color: rgb(89,151,0);
+}
+button {
+  text-align:center;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 15%;
+  height: 25px;
+  width:fit-content;
+  background-color: aqua;
+}
+
+p:hover {
+  border-color: black;
+  border-style: solid;
+  box-shadow: 1ch;
+  display: flex;
+}
+
