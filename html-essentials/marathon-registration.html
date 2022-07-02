@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <h2>Marathon Registration form</h2>
+        <form action="/marathon" id="marathon-form">
+          <div id="nameInputContainer">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" placeholder="first name" required>
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" placeholder="last name" required>
+          </div>
+          <div id="raceTypeSelection">
+            <p>Select a Race:</p>
+            <label for="fun-run">Fun Run 5k</label>
+            <input type="radio" name="raceType" value="Fun" id="fun-run">
+            <label for="half-run">Half Maraton</label>
+            <input type="radio" name="raceType" value="Half" id="half-run">
+            <label for="full-run">Full Marathon</label>
+            <input type="radio" name="raceType" value="Full" id="full-run">
+          </div>
+          <p></p>
+          <div id="emailPasswordCredentials">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+            <label for="Password">Password</label>
+            <input type="password" id="password" placeholder="password" required>
+          </div>
+          <div id="ageGroupSelection">
+            <label for="age-group">Select age group: </label>
+            <select name="age-group" id="age-group">
+              <option value="under">under 18</option>
+              <option value="over">over 18</option>
+            </select>
+          </div>
+          <div id="buttonContainer">
+            <button type="submit" form="marathon-form">Register!</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>
