@@ -1,0 +1,49 @@
+body {
+  background-color: sandybrown;
+  color: lightseagreen;
+}
+
+.loginForm input:focus {
+  border-color: blue;
+  background-color: black;
+  color: white;
+}
+
+.loginButton:hover {
+  border-color: gold;
+  background-color:black;
+  color: white;
+}
+
+.passwordReset:hover {
+  background-color: blue;
+  color: white;
+}
+
+.lorems p {
+  text-align: center;
+  background-color: azure !important;
+}
+
+.lorems p:nth-of-type(2n) {
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.lorems p::first-letter {
+  font-size: 2em;
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+.lorems p::selection {
+  color: burlywood;
+}
+
+.lorems p::selection {
+  color: darkmagenta;
+}
+
+.lorems p {
+  background-color: darkolivegreen;
+}
