@@ -22,3 +22,26 @@ span a {
   background-color: black;
   color: white;
 }
+
+input + button {
+  border-color: white;
+  border-width: 5px;
+  background-color: darkblue;
+  color: white;
+}
+
+.mainSection > .loremContainer {
+  font-size:25px;
+}
+
+input[type="text"] {
+  width: 250px;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+input[type="password"] {
+  width: 250px;
+  color: rgb(23, 166, 166);
+  font-style: italic;
+}
