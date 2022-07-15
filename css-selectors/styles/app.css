@@ -1,0 +1,24 @@
+nav { 
+  text-align: right;
+}
+
+#home {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.loremContainer {
+  text-align: center;
+  background-color: darkgoldenrod;
+  border-style: solid;
+  border-color: blue;
+  color: blue;
+}
+
+span a {
+  background-color: black;
+  color: white;
+}
