@@ -1,0 +1,21 @@
+h1 {
+  background-color: red;
+  border: 1px solid black;
+  display: inline;
+}
+
+span {
+  background-color: aquamarine;
+  border: 1px solid red;
+  display: inline-block;
+  margin: 50px;
+  padding: 15px;
+}
+
+.divToCenter {
+  height: 10vh;
+  width: 10vw;
+  background-color: black;
+  display: inline-block;
+  margin: 50%;
+}
